@@ -1,3 +1,4 @@
 {
-    "mongoURI":"mongodb://admin:admin@dev-connector-shard-00-00-ucvnp.mongodb.net:27017,dev-connector-shard-00-01-ucvnp.mongodb.net:27017,dev-connector-shard-00-02-ucvnp.mongodb.net:27017/test?ssl=true&replicaSet=dev-connector-shard-0&authSource=admin&retryWrites=true&w=majority"
+  "mongoURI": "mongodb://admin:admin@dev-connector-shard-00-00-ucvnp.mongodb.net:27017,dev-connector-shard-00-01-ucvnp.mongodb.net:27017,dev-connector-shard-00-02-ucvnp.mongodb.net:27017/test?ssl=true&replicaSet=dev-connector-shard-0&authSource=admin&retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }

@@ -11,9 +11,7 @@ const ProfileSchema = new mongoose.Schema({
   location: {
     type: String
   },
-  company: {
-    type: String
-  },
+ 
   status: {
     type: String,
     required: true
@@ -42,9 +40,7 @@ const ProfileSchema = new mongoose.Schema({
         type: String,
         required: true
       },
-      location: {
-        type: String
-      },
+     
       from: {
         type: Date,
         required: true
@@ -101,16 +97,13 @@ const ProfileSchema = new mongoose.Schema({
     facebook: {
       type: String
     },
-    linkdin: {
+    linkedin: {
       type: String
     },
     instagram: {
       type: String
-    },
-    date: {
-      type: Date,
-      default: Date.now
     }
+
   }
 });
 module.exports = Profile = mongoose.model("profile", ProfileSchema);
